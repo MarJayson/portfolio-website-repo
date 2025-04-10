@@ -1,0 +1,392 @@
+@media screen and (min-width: 1124px) and (max-width: 1270px) {
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
+  #hero-section {
+    margin: 0 5rem;
+    gap: 3rem;
+  }
+  .arrow-icon {
+    display: none;
+  }
+  #about {
+    margin: 0 5rem;
+  }
+  .about-container {
+    gap: 1rem;
+  }
+  #experience {
+    margin: 0 5rem;
+  }
+  .exp-container {
+    gap: 1rem;
+  }
+  #projects {
+    margin: 0 5rem;
+  }
+  .project-container {
+    gap: 1rem;
+  }
+  #contact {
+    margin: 0 6rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1124px) {
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
+  .arrow-icon {
+    display: none;
+  }
+  #hero-section {
+    padding-top: 5vh;
+    margin: 0 5rem;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    height: auto;
+  }
+  .profile-container img {
+    height: 380px;
+    width: 380px;
+  }
+  .hero-title {
+    font-size: 2.5rem;
+  }
+
+  .hero-text1 {
+    font-size: 1.4rem;
+  }
+  .hero-text2 {
+    font-size: 1.75rem;
+  }
+  .icon-container {
+    gap: 1rem;
+  }
+  .btn-container {
+    gap: 1rem;
+  }
+
+  .btn1 {
+    width: 9rem;
+  }
+
+  .btn2 {
+    width: 9rem;
+  }
+
+  #about {
+    margin: 0 8rem;
+    height: auto;
+    padding-top: 5vh;
+  }
+  .about-text1 {
+    font-size: 1.2rem;
+  }
+
+  .about-title {
+    font-size: 2.5rem;
+  }
+  .about-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-profile {
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: center;
+  }
+  .badge-icon,
+  .exp-icon {
+    height: 2rem;
+  }
+  .about-educ-container,
+  .about-exp-container {
+    padding: 1rem;
+    text-align: justify;
+  }
+  .about-pic-container img {
+    height: 350px;
+    width: 350px;
+  }
+  #experience {
+    margin: 0 5rem;
+    height: auto;
+    padding-top: 5vh;
+  }
+  .exp-text1 {
+    font-size: 1.3rem;
+  }
+  .exp-title {
+    font-size: 2.5rem;
+  }
+  .exp-sub-title {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .checkmark-icon {
+    height: 1.8rem;
+  }
+  .exp-container {
+    gap: 1.5rem;
+    margin-top: 1rem;
+  }
+  .exp-details-container {
+    padding: 1rem;
+    text-align: center;
+    flex: 1;
+    border-radius: 1.5rem;
+  }
+  .article-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  article {
+    width: auto;
+    flex: 1;
+    gap: 1rem;
+  }
+  #projects {
+    margin: 0 10rem;
+    height: auto;
+    padding-top: 5vh;
+  }
+  .project-text1 {
+    font-size: 1.3rem;
+  }
+
+  .project-title {
+    font-size: 2.5rem;
+  }
+  .project-container {
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 1rem;
+  }
+  .project-sub-title {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+  #contact {
+    padding-top: 5vh;
+    height: auto;
+    margin: 0 12rem;
+  }
+  .contact-text1 {
+    font-size: 1.25rem;
+  }
+  .contact-title {
+    font-size: 2.5rem;
+  }
+  .gmail-icon,
+  .fb-icon,
+  .likedin-icon {
+    height: 2rem;
+  }
+  .contact-container {
+    flex-direction: column;
+    margin: 2rem 1.5rem;
+    gap: 2rem;
+  }
+  footer {
+    height: auto;
+  }
+  footer p {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
+  .arrow-icon {
+    display: none;
+  }
+  #hero-section {
+    padding-top: 5vh;
+    margin: 0 5rem;
+    gap: 0.5rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+  }
+  .profile-container img {
+    height: 300px;
+    width: 300px;
+  }
+  .hero-text {
+    text-align: center;
+    padding: 0 1rem;
+  }
+
+  .hero-text1 {
+    font-size: 1.2rem;
+  }
+
+  .hero-text2 {
+    font-size: 1.5rem;
+  }
+  .hero-title {
+    font-size: 2.5rem;
+  }
+  #about {
+    padding-top: 5vh;
+    height: auto;
+    margin: 0 2rem;
+  }
+  .about-text1 {
+    font-size: 1.2rem;
+  }
+
+  .about-title {
+    font-size: 2.5rem;
+  }
+  .about-container {
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .about-pic-container img {
+    height: 300px;
+    width: 300px;
+  }
+  .badge-icon,
+  .exp-icon {
+    height: 2rem;
+  }
+  .about-educ-container,
+  .about-exp-container {
+    padding: 0.8rem;
+  }
+  #experience {
+    padding-top: 5vh;
+    height: auto;
+    margin: 0 2rem;
+  }
+  .exp-text1 {
+    font-size: 1.2rem;
+  }
+  .exp-title {
+    font-size: 2.5rem;
+  }
+
+  .exp-sub-title {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .exp-container {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .exp-details-container {
+    padding: 1rem;
+    text-align: center;
+    border-radius: 1.5rem;
+    font-size: 1rem;
+  }
+  .checkmark-icon {
+    height: 1.5rem;
+  }
+  #projects {
+    padding-top: 5vh;
+    height: auto;
+    margin: 0 3rem;
+  }
+  .project-text1 {
+    font-size: 1.2rem;
+  }
+  .project-title {
+    font-size: 2.5rem;
+  }
+  .project-container {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .project-sub-title {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+  .project-details-container {
+    text-align: center;
+    border-radius: 1.5rem;
+    font-size: 1rem;
+  }
+  .project-img {
+    border-radius: 1rem;
+    object-fit: cover;
+  }
+  #contact {
+    padding-top: 5vh;
+    height: auto;
+    margin: 0 4rem 4rem;
+  }
+  .contact-text1 {
+    font-size: 1.2rem;
+  }
+
+  .contact-title {
+    font-size: 2.5rem;
+  }
+
+  .gmail-icon,
+  .fb-icon,
+  .likedin-icon {
+    height: 2rem;
+  }
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 1.5rem;
+    margin: 2rem auto;
+    padding: 1rem;
+    gap: 1.5rem;
+  }
+  .contact-details-container {
+    flex-direction: column;
+    gap: 1rem;
+    margin: 1rem 0;
+  }
+  .contact-details-container p {
+    font-size: 1.2rem;
+  }
+  footer {
+    padding-top: 5vh;
+    height: auto;
+  }
+  footer p {
+    font-size: 0.9rem;
+  }
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav-links a {
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    text-align: center;
+  }
+  footer p {
+    padding-top: 5rem;
+  }
+}
+@media screen and (max-width: 425px) {
+  .contact-container {
+    border: none;
+  }
+}
